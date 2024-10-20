@@ -1,0 +1,137 @@
+﻿<!DOCTYPE HTML>
+
+<!-- Homepage Template -->
+<html lang="en">
+<head>
+  <title>Homepage - Photography</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="Explore a collection of landscape moments captured by a passionate photographer." />
+  <meta name="keywords" content="Photography, Landscape, Showcase, Gallery" />
+  <meta name="author" content="Your Name" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Avenir+Next:wght@400;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="preload" href="images/fulls/websitedartmoorcross.webp" as="image">
+  <link rel="preload" href="assets/fonts/my-font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="canonical" href="https://photography.williambuist.com/home.html">
+</head>
+<body class="is-preload">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation" role="navigation">
+    <a class="navbar-brand" href="index.html" aria-label="Photography Showcase Home">Photography by William Buist</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-haspopup="true" aria-label="Toggle main navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ms-auto" role="menu">
+        <li class="nav-item"><a class="nav-link" href="index.html" role="menuitem" aria-current="page">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header id="header" class="text-center py-5" style="background-image: url('images/fulls/websitedartmoorcross.webp'); background-size: cover; background-position: center; min-height: 500px; background-color: #333;">
+    <div class="container text-white" style="font-family: 'Avenir Next', sans-serif;">
+      <!--
+      <img src="images/thumbs/WBHeadshot1.webp" alt="Portrait of landscape photographer William Buist" class="rounded-circle mb-3" loading="lazy" srcset="images/thumbs/WBHeadshot1.webp 480w, images/thumbs/WBHeadshot1.webp 800w" sizes="(max-width: 12vw) 11vw, 10vw" />
+      -->
+      <h1 style="font-family: 'Avenir Next', sans-serif; padding-top: 30vh"><strong>Welcome to Landscape Photography by William Buist</strong></h1><p style="font-family: 'Avenir Next', sans-serif; color:whitesmoke">An immersive collection of landscape moments.</p>
+      <a href="gallery.html" class="btn btn-primary mt-3">Explore Gallery</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div id="main" class="container">
+    <section id="one" class="my-5">
+      <header class="major">
+        <h2>Welcome to a world of photography<br /> captured through my lens.</h2>
+      </header>
+      <p>Explore my curated collection of work and get inspired. Each photograph tells a story of the places and moments that are closest to my heart.</p>
+      <a href="gallery.html" class="btn btn-primary mt-3">View Gallery</a>
+    </section>
+    <section id="gallery" class="my-5">
+      <!-- Gallery Section -->
+      <div class="container">
+        <h2 class="text-center mb-4">Featured Gallery</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="images/thumbs/websitedartmoorcross.webp" class="card-img-top" alt="Featured Landscape 1" loading="lazy">
+              <div class="card-body">
+                <p class="card-text">Lone Cross: This cross stands in an open section of Dartmoor, who lies beneath it is a mystery, but its quiet perpetual contemplation of the land is a reminder to reflect on the beauty of the place in which we rest.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="images/thumbs/website.webp" class="card-img-top" alt="Featured Landscape 2" loading="lazy">
+              <div class="card-body">
+                 <p class="card-text">Lighting the land: Walking across the cliffs of South Devon, the clouds cleared a little, and a shaft of sun drifted across the sea, Lighting the land.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="images/thumbs/Website-2.webp" class="card-img-top" alt="Featured Landscape 3" loading="lazy">
+              <div class="card-body">
+                <p class="card-text">Tread Lightly: This image was taken at the Giant's Causeway in Northern Ireland. I visited on a quiet day when few others were braving the wind and rain. The seas were boiling from a storm that had passed through the day before. The waves were soaking the rocks and I had to tread lightly on my way to this photograph.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="two" class="my-5">
+      <!-- Testimonials Section -->
+      <div class="container my-5">
+        <h2 id="testimonials-heading" class="text-center">What People Are Saying</h2>
+        <div id="testimonials" class="carousel slide" data-bs-ride="carousel" aria-labelledby="testimonials-heading" role="region">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <blockquote class="blockquote text-center">
+                <p class="mb-4">�The photos are absolutely stunning. They capture the essence of the landscapes beautifully!�</p>
+                <footer class="blockquote-footer">Jane Doe, Travel Blogger</footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center">
+                <p class="mb-4">�Truly breathtaking work. Each shot tells an incredible story.�</p>
+                <footer class="blockquote-footer">John Smith, Art Enthusiast</footer>
+              </blockquote>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonials" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#testimonials" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+  </section>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#" class="text-white" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i> Email</a></li>
+      </ul>
+      <p class="mt-3">&copy; William Buist 2024</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</body>
+</html>
+
+

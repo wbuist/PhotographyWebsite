@@ -171,7 +171,6 @@
         <None Include="assets\sass\libs\_mixins.scss"/>
         <None Include="assets\sass\libs\_html-grid.scss"/>
         <None Include="assets\sass\main.scss"/>
-        <None Include="images\thumbs\WBHeadshot1.webp"/>
         <RcItem Include="images\thumbs\01.jpg">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>JpgImage_16</ResourceId>
@@ -196,7 +195,6 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>JpgImage_21</ResourceId>
         </RcItem>
-        <None Include="images\thumbs\WebsiteDartmoorCross.webp"/>
         <None Include="images\.DS_Store"/>
         <RcItem Include="images\avatar.jpg">
             <ResourceType>RCDATA</ResourceType>
@@ -231,12 +229,68 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>JpgImage_29</ResourceId>
         </RcItem>
-        <None Include="images\fulls\wbheadshot.webp"/>
-        <None Include="images\fulls\websitedartmoorcross.webp"/>
         <RcItem Include="images\bg.jpg">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>JpgImage_30</ResourceId>
         </RcItem>
+        <RcItem Include="images\fulls\Website.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>JpgImage_1</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\Website-1.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>JpgImage_2</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\Website-2.jpg">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>JpgImage_3</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\wbheadshot.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_1</ResourceId>
+        </RcItem>
+        <RcItem Include="images\thumbs\WBHeadshot1.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_6</ResourceId>
+        </RcItem>
+        <RcItem Include="images\thumbs\website.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_7</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\website.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_2</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\Website-1.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_3</ResourceId>
+        </RcItem>
+        <RcItem Include="images\thumbs\Website-2.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_8</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\Website-2.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_4</ResourceId>
+        </RcItem>
+        <RcItem Include="images\thumbs\WebsiteDartmoorCross.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_9</ResourceId>
+        </RcItem>
+        <RcItem Include="images\fulls\websitedartmoorcross.webp">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_5</ResourceId>
+        </RcItem>
+        <None Include="nav.html"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -264,6 +318,12 @@
             </Delphi.Personality>
             <Deployment Version="4">
                 <DeployFile LocalName="Photowebsite.html" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Untitled1.htm" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -551,6 +611,36 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="images\fulls\Website-1.jpg" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="images\fulls\Website-1.webp" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="images\fulls\Website-2.jpg" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="images\fulls\Website-2.webp" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="images\fulls\Website.jpg" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="images\fulls\WebsiteDartmoorCross.jpg" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
@@ -558,6 +648,12 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="images\fulls\wbheadshot.webp" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="images\fulls\website.webp" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -611,7 +707,19 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="images\thumbs\Website-2.webp" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="images\thumbs\WebsiteDartmoorCross.webp" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="images\thumbs\website.webp" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
